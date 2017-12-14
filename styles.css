@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+width: 960px;
+    font-family: 'Lato', sans-serif;
+text-align: center;
+    align-content: center;
+    
+}
+
+b{ 
+    font-size: 15px;
+}
+.henkilo{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+h1{
+    font-size: 25px;
+    text-align: center;
+}
+h2 {
+    
+    font-size: 20px;
+    text-align: center;
+}
+h3 {
+    font-size 15px;
+    text-align: center;
+    font-weight: bold;
+}
+p{
+    padding: 5px;
+    font-family: 'Lato', sans-serif;
+}
+.section {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav {
+width:50%;
+margin:0 auto;
+list-style:none;
+    -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+     -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+          box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+top:0;
+}
+nav_bar {
+    width: 50%;
+}
+
+#menu-item {
+  background-color: bisque;
+  width: 50%; 
+
+}
+
+  .menu-item h4 {
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  border-top: 1px solid rgba(255,255,255,0.2);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 7px 12px;
+  font-family: 'Lato', sans-serif;
+  /*Gradient*/
+  background: #a90329; /* Old browsers */
+  background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* IE10+ */
+  background: linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+}
+
+.alpha p {
+	font-size: 13px;
+	padding: 8px 12px;
+	color:black;
+}
+.menu-item h4:hover {  
+  background: #cc002c; /* Old browsers */
+  background: -moz-linear-gradient(top,  #cc002c 0%, #6d0019 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cc002c), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #cc002c 0%,#6d0019 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #cc002c 0%,#6d0019 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #cc002c 0%,#6d0019 100%); /* IE10+ */
+  background: linear-gradient(top,  #cc002c 0%,#6d0019 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc002c', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+}
+
+
+.menu-item:hover ul {
+  height: 93px;
+}
+
+.menu-item ul {
+    width: 100%;
+  background-color: bisque;
+  font-size: 13px;
+  line-height: 30px;
+  height: 0px; /*Collapses the menu*/
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0px;
+
+    
+    -webkit-transition: height 1s ease;
+     -moz-transition: height 1s ease;
+       -o-transition: height 1s ease;
+      -ms-transition: height 1s ease;
+          transition: height 1s ease;
+
+}
+ 
+.menu-item ul a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  width: 200px;
+}
+ 
+
+/*li Styles*/
+.menu-item li {
+  border-bottom: 1px solid #eee;
+}
+ 
+.menu-item li:hover {
+  background: #eee;
+}
+.menu-item h4 a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  width: 200px;
+}
+
+#nav_bar {
+	border: 0;
+	background-color: #202020;
+	border-radius: 0px;
+	margin-bottom: 0;
+    height: 30px;
+}
+
+.headerBreak{
+width: 100%;
+height: 0%;
+border bottom: 2px solid #128e75;
+}
+.menu {
+ 
+  height: 80px;
+    
+}
+
+.header {
+      width: 100%;
+    height: auto;
+    padding-top: 24px;
+    align-content: center;
+    
+}
+.headercontent{
+    width: 100%;
+    height: auto;
+}
+img {
+    width: 40%;
+    display: block;
+    margin-left: 30%;
+    margin-bottom: 10px;
+}
+.content {
+  font-family: 'Lato', sans-serif;
+    width: 100%;
+    padding-top: 120px;
+    align-content: center;
+    text-align: center;
+    
+    
+    
+}
+
+.sign-up {
+  
+}
+.jakso{
+    padding: -5px;
+}
+.feature-1 {
+    width: 100%;
+    float:left;
+    font-family: 'Lato', sans-serif;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+.feature-2 {
+ font-family: 'Lato', sans-serif;
+    float:left;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.feature-2 img {
+    width: 50%;
+    float: left;
+}
+
+.feature-3 {
+display: flex;
+width: 100%;
+float:right;
+    font-family: 'Lato', sans-serif;
+    padding-top: 10px;
+justify-content: center;
+text-align: center;
+    
+border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+
+li{
+    font-family: 'Lato', sans-serif;
+}
+ul {
+    padding:10%;
+}
+.feature-3 img {
+    width: 70%;
+    
+}
+yhteystiedot {
+   display: flex;
+    justify-content: center;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+   
+  }
+     .navbar-fixed {
+    top: 0;
+    z-index: 100;
+  position: fixed;
+    width: 100%;
+}
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    
+  }
+    .feature-3 img {
+    width: 30%;
+    height: 30%;
+        margin-right: 30%;
+    }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    .page{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    header{
+        width: 50%;
+    }
+    body{
+        width: 50%;
+        margin-left: 25%;
+        
+       
+    }
+    
+    .feature-3 img {
+    width: 30%;
+    height: 30%;
+        margin-right: 30%;
+    }
+    nav {
+        width: 50%;
+        margin-left: 25%;
+        z-index: 100;
+        z-index: 100;
+        display: flex;
+        justify-content: center;
+    }
+    .menu-item{
+        
+    }
+    #nav_bar {
+	
+}
+}
