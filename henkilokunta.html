@@ -9,6 +9,8 @@
       content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="java.js"></script>
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body>
  
@@ -16,45 +18,19 @@
     <div class="headerContent"><img src="krist.jpg"></div>
     </div>
      
-      <nav id="nav_bar" data-topbar data-options="scrolltop:false">
-    <div class="menu-item">
-      <h4><a href="http://student.labranet.jamk.fi/~K1559/visualisointi/">Etusivu</a></h4>
-      
-    </div>
-      
-    <div class="menu-item">
-      <h4><a href="javascript:void(0)">Koulu</a></h4>
-      <ul>
-        <li><a href="http://student.labranet.jamk.fi/~K1559/visualisointi/arvot.html">Arvot</a></li>
-        <li><a href="http://student.labranet.jamk.fi/~K1559/visualisointi/henkilokunta.html">Henkilökunta</a></li>
-        <li><a href="javascript:void(0)">Puuhis</a></li>
-      </ul>
-    </div>
-      
-    <div class="menu-item">
-      <h4><a href="javascript:void(0)">About</a></h4>
-      <ul>
-        <li><a href="javascript:void(0)">History</a></li>
-        <li><a href="javascript:void(0)">Meet The Owners</a></li>
-        <li><a href="javascript:void(0)">Awards</a></li>
-      </ul>
-    </div>
-      
-    <div class="menu-item">
-      <h4><a href="javascript:void(0)">Contact</a></h4>
-      <ul>
-        <li><a href="javascript:void(0)">Phone</a></li>
-        <li><a href="javascript:void(0)">Email</a></li>
-        <li><a href="javascript:void(0)">Location</a></li>
-      </ul>
-    </div>
-</nav>
- 
-      <div class="headerBreak"></div>
-     <div class="content">
+  <div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li><a href="http://student.labranet.jamk.fi/~K1559/web-visualisointi/harkkatyo2/index.html">Etusivu</a></li>
+    <li><a href="http://student.labranet.jamk.fi/~K1559/web-visualisointi/harkkatyo2/henkilokunta.html">Henkilökunta</a></li>
+    <li><a href="http://student.labranet.jamk.fi/~K1559/web-visualisointi/harkkatyo2/arvot.html">Arvot</a></li>
+  </ul>
+</div>
+    
          
      <h1>Henkilökunta 2017-2018</h1>
-         <img src="opet.jpeg">
+         <img src="opet.jpeg" class="img-responsive">
             <div class="henkilo">
                 <b>Petteri Muotka</b>, rehtori, li
             </div>
@@ -75,12 +51,14 @@
              </div>
          
     <h2>Muu oppilashuoltohenkilökunta</h2>
-    <div class="henkilo">  
-        <b>Katja Kaurijoku</b>, terveydenhoitaja<br>
+      <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Muu oppilashuoltohenkilökunta</button>
+  <div id="demo" class="collapse">
+   <b>Katja Kaurijoku</b>, terveydenhoitaja<br>
             <b>Kati Immonen</b>, koulukuraattori<br>
             <b>Tiia Salminen</b>, koulupsykologi<br>
-        </div>  
-      </div>
-  </body>
+  </div>
+   
+    </body>
 </html>
+      
 
