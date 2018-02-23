@@ -1,0 +1,79 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nappula {
+  padding: 20px 40px;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  background-color: #4388FF;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+ transition: all 0.3s ease 0s;
+}
+.nappula:hover {
+  /* SASSissa käyttäisimme tähän lighten-funktiota! */ 
+  background-color: #90B9FF; 
+  transition-timing-function: linear;
+    -webkit-transition-timing-function: linear;
+opacity: 0.95;
+ 
+}
+.nappula:active {
+  /* Täällä voisimme käyttää darken-funktiota, jos kirjoittelisimma SASS/LESS.. */
+  background-color: #366DCC;
+}
+.nappi {
+  padding: 20px 40px;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  background-color: #4388FF;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+ transition: all 0.3s ease 0s;
+}
+.nappi:hover {
+  /* SASSissa käyttäisimme tähän lighten-funktiota! */ 
+  background-color: #2E4DFF; 
+  transition-timing-function: linear;
+    -webkit-transition-timing-function: linear;
+   box-shadow: inset 0 0 10px #DCE3FF;
+ 
+}
+.nappi:active {
+  /* Täällä voisimme käyttää darken-funktiota, jos kirjoittelisimma SASS/LESS.. */
+  background-color: #366DCC;
+}
+.napitus {
+  padding: 20px 40px;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  background-color: #4388FF;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+ transition: all 0.3s ease 0s;
+}
+.napitus:hover {
+  /* SASSissa käyttäisimme tähän lighten-funktiota! */ 
+  background-color: #5BFF00; 
+  transition-timing-function: linear;
+    -webkit-transition-timing-function: linear;
+    border-radius: 50%;
+    box-shadow: inset 0 0 10px #FF310D;
+   
+ 
+}
+.napitus:active {
+  /* Täällä voisimme käyttää darken-funktiota, jos kirjoittelisimma SASS/LESS.. */
+  background-color: #366DCC;
+}
+
