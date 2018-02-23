@@ -11,7 +11,7 @@ Tein (https://guides.emberjs.com/v3.0.0/tutorial/ember-cli/) emberin sivuilta Qu
 En halua käyttää tätä tekniikkaa harjoitustyössä, sillä se on niin haastava ja konsolipohjainen. 
 Todella hyvä ja monipuolinen ohjelmisto, mutta vaatii paljon aikaa.
 
-Toinen harjoitustyö
+<h2>Toinen harjoitustyö</h2>
 Tämä toinen harjoitustyö on toteutettu täysin Bootstrapin avulla. Se onnistui huomattavasti paremmin kuin edellinen versio, mutta on silti vain keskinkertainen. 
 Käytin sen tekemiseen noin neljä tuntia, ja en ole siihen kovin tyytyväinen. Olisin voinut käyttää enemmänkin. Arvosanaehdotus: S. Tein kaikki tehtävät, paitsi yhden missä en onnistunut (44-2).
 
