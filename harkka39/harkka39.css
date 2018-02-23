@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #FFFFCB;
+}
+
+li {
+    display: inline;
+    
+}
+a {
+    color: aliceblue;
+}
+nav {
+    max-width: 100%;
+    text-align: center;
+    background-color: #004056;
+}
+header {
+    width: 100%;
+    background-image: url(header.jpg);
+    background-size: cover;
+    height: 100px;
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    text-shadow: 2px 2px #004056;
+    
+}
+main {
+    padding: 3%;
+    text-align: center;
+    background-color: #C9FFD5;
+    color:darkslategrey;
+    font-size: 90%;
+    flex: auto;
+    outline: 1px solid #212625;
+    
+}
+aside {
+    background-color: #74CEB7;
+    width: 100%;
+    font-size: 80%;
+    text-align: center;
+    flex:auto;
+}
+article {
+    width: 100%;
+    text-align: center;
+    padding: 3%;
+    flex: auto;
+    outline: 1px solid #212625;
+}
+#article3 {
+     width: 100%;
+    text-align: center;
+    background-color: #C9FFD5;
+    padding: 3%;
+    flex: auto;
+    outline: 1px solid #212625;
+}
+#article2 {
+    width: 100%;
+    text-align: center;
+    background-color: #C9FFD5;
+    padding: 3%;
+    flex: auto;
+    outline: 1px solid #212625;
+}
+section {
+    width: 100%;
+    text-align: center;
+    padding: 3%;
+    flex: auto;
+    outline: 1px solid #212625;
+}
+footer {
+    background-color: #004056;
+}
+h1 {
+    text-align: center;
+}
+@media only screen and (max-width: 400px) {
+    
+}
+
+@media only screen and (max-width: 960px) {
+    main {
+        width: 100%;
+        flex:auto;
+        display: table-cell;
+    }
+    aside {
+        width: 100%;
+        display: table-cell;
+        font-size: 73%;
+        flex: auto;
+    }
+    article{
+        width: 100%;
+        float: right;
+    }
+    #article2{
+        width: 100%;
+        
+    }
+    section{
+        
+    }
+}
+
+@media only screen and (min-width: 961px) {
+     main {
+        width: 60%;
+        flex:auto;
+        display: table-cell;
+    }
+    aside {
+        width: 40%;
+        display: table-cell;
+        font-size: 73%;
+        flex: auto;
+    }
+    article{
+        width: 50%;
+        float: right;
+    }
+    #article2{
+        width: 50%;
+        
+    }
+    section{
+        
+    }
+}
+
